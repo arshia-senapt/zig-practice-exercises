@@ -1,0 +1,3 @@
+Create a function that may fail and returns custom errors.
+
+Handle the error using try, catch, and return with ! types.

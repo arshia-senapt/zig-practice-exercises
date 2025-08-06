@@ -1,0 +1,1 @@
+Manually implement a simple singly linked list using pointers and manual memory management.

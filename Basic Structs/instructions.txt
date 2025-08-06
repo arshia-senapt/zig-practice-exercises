@@ -1,0 +1,3 @@
+Define a Person struct with name and age.
+
+Create an enum for Gender and print different greetings based on gender.

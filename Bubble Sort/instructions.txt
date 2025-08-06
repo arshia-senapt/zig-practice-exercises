@@ -1,0 +1,3 @@
+Implement bubble sort on an array of integers.
+
+Practice working with slices and in-place mutation.

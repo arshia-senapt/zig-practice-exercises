@@ -1,0 +1,3 @@
+Create a dynamic array using an allocator.
+
+Use std.heap.GeneralPurposeAllocator or std.heap.page_allocator.

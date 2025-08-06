@@ -1,0 +1,3 @@
+Read a text file and print its contents.
+
+Use std.fs.cwd().openFile(...) and handle file system errors.

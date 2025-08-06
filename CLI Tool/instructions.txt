@@ -1,0 +1,3 @@
+Write a small command-line tool (e.g., a unit converter).
+
+Use std.process.args to handle input.
