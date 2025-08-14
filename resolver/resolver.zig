@@ -1,11 +1,5 @@
 const std = @import("std");
 
-fn ipv4ToString(addr: std.net.Address) *const [4]u8{
-    const ipv4 = addr.in;
-    const bytes = @as(*const [4]u8, @ptrCast(&ipv4.sa.addr));
-    return bytes;
-}
-
 pub fn resolveIPv4(name: []const u8) !*const [4]u8 {
     if (std.net.Address.parseIp4(name, 0)) |addr| {
         const ip4 = addr.in;
